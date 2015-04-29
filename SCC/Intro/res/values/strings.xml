@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">stopCancerCyprus</string>
+    <string name="action_settings">Settings</string>
+    <string name="gender">Φύλο</string>
+    <string name="title_activity_cancer_breast_">Μεγένθυση εικόνας</string>
+
+    <string-array name="sex">
+        <item>Αρρεν</item>
+        <item>Θήλυ</item>
+    </string-array>
+
+    <string name="age">Ηλικία</string>
+
+
+
+    <string name="smoke">Κάπνισμα</string>
+
+    <string-array name="smokeCategories">
+        <item>Νυν Καπνιστής</item>
+        <item>Πρώην καπνιστής</item>
+        <item>Μη καπνιστής</item>
+    </string-array>
+
+    <string name="prepossession">Προδιάθεση/Οικογενειακό Ιστορικό</string>
+
+    <string-array name="prepoCategories">
+        <item>Ναι</item>
+        <item>Όχι</item>
+    </string-array>
+
+    <string name="alcohol">περισσότερες από 5 φορές την εβδομάδα</string>
+
+    <string-array name="alcoholCategories">
+        <item>Ναι</item>
+        <item>Όχι</item>
+    </string-array>
+
+    <string name="sexSituation">Σεξουαλικά ενεργός/ή πάνω από 2 χρόνια;</string>
+
+    <string-array name="sexCategories">
+        <item>Ναι</item>
+        <item>Όχι</item>
+    </string-array>
+
+    <string name="str1">Παγκύπριος Σύνδεσμος Καρκινοπαθών και Φίλων - Φιλανθρωπικό Ίδρυμα αρ.525</string>
+
+ 
+    <!-- text view -->
+   <string name="title_activity_touch_image">TouchImageActivity</string>
+    <string name="title_activity_cancer_no_image">Cancer_noImage</string>
+    <string name="title_activity_activity_personal_inform">ActivityPersonalInform</string>
+    <string name="title_activity_personal_information">Προσωπική Ενημέρωση</string>
+    <string name="title_activity_exam">Διαγνωστική Εξέταση</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_settings_choose">Settings_choose</string>
+    <string name="title_activity_chooseset">Chooseset</string>
+    <string name="title_activity_choose_set">ChooseSet</string>
+    <string name="title_activity_prevention">Τρόπος Πρόληψης</string>
+    <string name="title_activity_pasikaf_infoafter">PasikafInfoafter</string>
+    <string name="title_activity_personal_inform_not_first_time">Επιτυχής εισαγωγή των προσωπικών σας στοιχείων</string>
+    <string name="title_activity_choose_personal_infrom">ChoosePersonalInfrom</string>
+    <string name="title_activity_show_not_for_first_time_related_exams">ShowNotForFirstTimeRelatedExams</string>
+    <string name="title_activity_ask_for_remeber_exam">Υπενθύμιση εξέτασης</string>
+    <string name="title_activity_thread_sleeep">ThreadSleeep</string>
+    <string name="title_activity_android_thread_notification">AndroidThreadNotification</string>
+    <string name="title_activity_ralize_notification">Πραγματοποίηση προτεινόμενης εξέτασης</string>
+
+</resources>

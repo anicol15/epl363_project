@@ -1,0 +1,51 @@
+<resources>
+    
+    <color
+        name="light_grey"
+        >#d3d3d3</color>
+    <color
+        name="grey"
+        >#979797</color>
+    <color
+        name="medium_brown"
+        >#867970</color>
+    <color
+        name="pale_brown"
+        >#EFECE5</color>
+    <color
+        name="turquise"
+        >#ADEAEA</color>
+    
+    <color
+        name="medium_orange"
+        >#FFFF99</color>
+    
+    <color
+        name="pale_blue"
+        >#99FFCC</color>
+    
+    <color
+        name="black_blue"
+        >#99FFCC</color>
+    
+    <color
+        name="happy_green"
+        >#33FF33</color>
+    
+    <color
+        name="l_blue"
+        >#99FFFF</color>
+    
+    <color
+        name="l_brown"
+        >#CCCC99</color>
+    
+    <color
+        name="s_green"
+        >#CCCC00</color>
+    
+    <color 
+        name="brown"
+        >#996633</color>
+    
+</resources>

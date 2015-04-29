@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cy.ac.ucy.teamc.scc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="cy.ac.ucy.teamc.scc.SecondActivity" />
+
+        <service android:name="cy.ac.ucy.teamc.scc.ScheduleService" />
+        <service android:name="cy.ac.ucy.teamc.scc.NotifyService" />
+
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.Intro"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.GeneralInform"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.PasikafInfo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="cy.ac.ucy.teamc.scc.PASIKAFINFO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.Menu"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.ExaminationList"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.ActivityList"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.ShowForFirstTime"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.DietList"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.CancerList"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.Cancer"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.NotificationDetailsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.CancerActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.ActivityNotification"
+            android:label="@string/app_name" >
+        </activity>
+
+        <service android:name="cy.ac.ucy.teamc.scc.ActivityNotificationService" >
+        </service>
+
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.GridViewImageActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.ImageAdapter"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.MyImageActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.PersonalInform"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.Prevention"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.Settings"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.Personal_settings"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.TouchImageActivity"
+            android:label="@string/title_activity_touch_image" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.TouchImageViewActivity"
+            android:label="@string/title_activity_cancer_breast_" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.ActivityPersonalInform"
+            android:label="@string/title_activity_activity_personal_inform" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.Personal_information"
+            android:label="@string/title_activity_personal_information" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.Exam"
+            android:label="@string/title_activity_exam" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.DatabaseManager"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.SQLConnection"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.ExamActivity"
+            android:label="@string/title_activity_exam" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.PreventionActivity"
+            android:label="@string/title_activity_prevention" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.PasikafInfoafter"
+            android:label="@string/title_activity_pasikaf_infoafter" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.PersonalInformNotFirstTime"
+            android:label="@string/title_activity_personal_inform_not_first_time" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.ChoosePersonalInfrom"
+            android:label="@string/title_activity_choose_personal_infrom" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.ShowNotForFirstTimeRelatedExams"
+            android:label="@string/title_activity_show_not_for_first_time_related_exams" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.AskForRemeberExam"
+            android:label="@string/title_activity_ask_for_remeber_exam" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.ThreadSleeep"
+            android:label="@string/title_activity_thread_sleeep" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.AndroidThreadNotification"
+            android:label="@string/title_activity_android_thread_notification" >
+        </activity>
+        <activity
+            android:name="cy.ac.ucy.teamc.scc.Ralize_notification"
+            android:label="@string/title_activity_ralize_notification" >
+        </activity>
+    </application>
+
+</manifest>

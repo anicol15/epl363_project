@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccffff"
+    android:orientation="vertical"
+    android:padding="20dp" >
+ <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <!-- Button for changing of personal information -->
+
+
+<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+             <!-- cancer choice -->
+       <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:paddingBottom="20dp">
+
+        <requestFocus />
+        <ImageButton
+             android:id="@+id/BpersonalInfo"
+            android:layout_width="300dp"  
+			android:layout_height="90dp"  
+			android:scaleType="fitCenter"
+			android:adjustViewBounds="true"
+              android:src="@drawable/personal" 
+               android:layout_gravity="center"
+              android:background="#ccffff"/>
+
+        </LinearLayout>
+
+        <!-- Button for changing of push notification settings -->
+
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:paddingBottom="20dp" 
+        >
+
+      <requestFocus />
+        <ImageButton
+             android:id="@+id/Bnotification"
+            android:layout_width="300dp"  
+			android:layout_height="90dp"  
+			android:scaleType="fitCenter"
+			android:adjustViewBounds="true"
+              android:src="@drawable/notifica" 
+               android:layout_gravity="center"
+              android:background="#ccffff"/>
+
+        </LinearLayout>
+
+  </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

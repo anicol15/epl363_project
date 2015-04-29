@@ -1,0 +1,61 @@
+﻿html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Verdana",Sans-Serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  color: #000000;
+  line-height: normal;
+  vertical-align: middle;
+  text-align: justify;
+  position: relative;
+  overflow:hidden;
+}
+
+#full-screen-background-image {
+	min-height: 100%;
+	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#wrapper {
+  position: relative;
+  width: 800px;
+  min-height: 400px;
+  margin: 100px auto;
+  color: #333;
+}
+
+.top {
+    position: relative;
+    height: 92px;
+}
+.left {
+    position: relative;
+    width: 178px;
+    float:left;
+}
+.main {
+    position: relative;
+    margin-left:178px;
+}
+
+ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.descriptionText {
+    width: 300px;
+}
